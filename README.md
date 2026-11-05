@@ -7,7 +7,12 @@ change previews and encrypted snapshots.
 Runs locally over STDIO using Python's standard library. Requires Windows,
 Python 3.10+, and access to Sonarr 4. Sonarr itself may run on another machine.
 
-## Setup
+## Installation
+
+**[Step-by-step Windows installation guide](docs/INSTALL.md)** — includes ZIP download,
+Python setup, Codex configuration without the CLI, remote Sonarr, and troubleshooting.
+
+### Quick setup with the Codex CLI
 
 ~~~powershell
 git clone https://github.com/mryx007/Sonarr-MCP.git
@@ -30,6 +35,9 @@ Environment overrides: **SONARR_CONFIG_PATH**, **SONARR_URL**,
 **SONARR_API_KEY**. Keep credentials and local configuration out of Git.
 
 ### Optional Codex write approval
+
+See the [installation guide](docs/INSTALL.md#5-optional-permanently-approve-writes)
+for detailed instructions.
 
 To permanently approve this server's write tool, explicitly add the following
 to your own ~/.codex/config.toml, then restart Codex:
