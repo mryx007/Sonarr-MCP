@@ -1,0 +1,9 @@
+Sonarr OpenAPI description (openapi.json)
+Copyright: Sonarr contributors.
+Source: https://github.com/Sonarr/Sonarr/blob/main/src/Sonarr.Api.V3/openapi.json
+License: GNU General Public License version 3; see SONARR-LICENSE.
+Retrieved: 2026-11-05. Distributed unmodified.
+SHA-256: 03108f7f6b20300b84af879392ac44947cd3d3c19c073184e5fbf94e127165f9
+
+The MCP server is an independent community project. The complete project
+is distributed as source under GPL-3.0-only; see LICENSE.

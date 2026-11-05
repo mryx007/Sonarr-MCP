@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+/backups/
+/work/
+/settings.json
+.env
+.env.*
+*.dpapi
+*.log
+*.db
+*.db-shm
+*.db-wal
+/config.xml
+/config.toml
+*.bak
+/test_server.py
+/check_connection.py
